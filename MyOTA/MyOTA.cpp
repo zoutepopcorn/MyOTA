@@ -9,7 +9,6 @@ double v = 0.1;
 MyOTA::MyOTA() {
   pinMode(2, OUTPUT);
   digitalWrite(2, HIGH);
-  //SER.begin(115200);
   SER.println("Ota checker");
   for(uint8_t t = 3; t > 0; t--) {
       SER.printf("v --> %d...\n", t);
@@ -17,11 +16,6 @@ MyOTA::MyOTA() {
       SER.flush();
       delay(1000);
   }
-}
-
-void MyOTA::dash() {
-  delay(1000);
-  delay(250);
 }
 
 void MyOTA::checkOTA() {
