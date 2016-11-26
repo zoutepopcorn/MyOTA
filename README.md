@@ -19,6 +19,8 @@ Open the example. Make sure your esp connects with your gateway, by connecting t
 
 ## Open your mobile phone and setup a hotspot with the name:
 "**up**adress/firm"  .
-Now your esp8266 will check in his setup loop, for the url: "http://**adress/firm**.bin". So dont include http:// OR .bin in your hotspot.
+Now your esp8266 will check in his setup loop, for the url: "http://**adress/firm**.bin". So dont include http:// OR .bin in your hotspot name.
+
+Note: the esp will download the firmware from the connected hotspot. So by default not from the "upadress/firm" hotspot.
 
 
