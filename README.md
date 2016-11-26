@@ -13,12 +13,12 @@ Open the example. Make sure your esp connects with your gateway, by connecting t
 `Sketch > Export compiled Binary. `
 `Sketch > Show sketch folder. Here is your bin file.`
 
-## Host your local files by example by using: 
+## Host your local bin file, using: 
 - https://www.npmjs.com/package/http-server
 - just upload it to any server.
 
 ## Open your mobile phone and setup a hotspot with the name:
-"upadress/firm"
-Now your esp8266 will check in his setup loop, for the url: "http://adress/firm.bin"
+"**up**adress/firm"  .
+Now your esp8266 will check in his setup loop, for the url: "http://**adress/firm**.bin". So dont include http:// OR .bin in your hotspot.
 
 
